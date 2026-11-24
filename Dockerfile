@@ -39,7 +39,7 @@ RUN apt install  -y git-extras lintian
 
 
 #setup nodejs 
-RUN curl -sL https://deb.nodesource.com/setup_20.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_24.x | bash -
 RUN apt update
 RUN apt install -y nodejs
 #RUN apt install -y npm
